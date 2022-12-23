@@ -1,0 +1,48 @@
+/* .navigation ul li.active a {
+    text-decoration: underline #084468;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 11px;
+    border-radius: 70%;
+  } */
+
+#active {
+  /* text-decoration: underline #084468;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 11px;
+    border-radius: 70%;*/
+  color: purple;
+  border-left: rgb(107, 5, 138) solid 4px;
+}
+
+.iconactive {
+  color: purple;
+}
+
+.HighlightClass {
+  overflow: hidden;
+  white-space: nowrap;
+  /* Don't forget this one */
+  text-overflow: ellipsis;
+}
+
+/* .navigation {
+    padding: 20px 0;
+  }
+  .navigation ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navigation ul li {
+    list-style: none;
+    padding: 0 10px;
+  }
+  .navigation ul li a {
+    padding: 20px 10px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  .navigation ul li a:hover {
+    color: purple;
+  } */
